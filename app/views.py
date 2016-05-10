@@ -1,4 +1,3 @@
-#returns string to be displayed on the client's browser
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm()
